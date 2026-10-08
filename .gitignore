@@ -1,0 +1,92 @@
+## .NET / Visual Studio .gitignore
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build logs
+*.log
+msbuild*.wrn
+msbuild*.err
+msbuild*.slog
+
+# NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# NuGet Symbol Packages
+*.snupkg
+
+# Project-level NuGet config
+nuget.config
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# User-specific files
+*.csproj.user
+*.dbmdl
+*.jfm
+
+# Auto-generated files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+
+# Publish output
+*.publishproj
+publish/
+
+# dotnet tools
+.dotnet/
+tools/
+
+# Entity Framework Migrations (keep these, just ignoring the designer snapshots isn't recommended)
+
+# Application Insights
+ApplicationInsights.config
+
+# Secret files
+appsettings.Development.json
